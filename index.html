@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Order Site</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+
+    .header {
+      background-color: #242320;
+      padding: 30px;
+      text-align: center;
+      width: 96%;
+      color: white;
+      font-size: 24px;
+      
+      border-top-right-radius: 10px;
+    }
+
+    .menu-links {
+      background-color: pink;
+      display: flex;
+      
+      padding: 10px;
+      width: 99%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .menu-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      margin: 0 30px; 
+    }
+
+    .content-container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0px;
+    }
+
+    .menu-container {
+      width: 30%; /* Adjust the width as needed */
+      padding: 20px;
+      background-color: white;
+      
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .appetizers {
+      font-size: 18px;
+      margin-left: 5px;
+    }
+
+    .image-container {
+      width: 70%; /* Adjust the width as needed */
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .copyright {
+      background-color: #242320;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+      position:fixed;
+      bottom: 0;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    Food Order Site
+  </div>
+  <div class="menu-links">
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact Us</a>
+  </div>
+  <div class="content-container">
+    <div class="menu-container">
+      <div class="menu">
+        <h2>Menu</h2>
+      </div>
+      <div class="appetizers">
+        <h3>Appetizers</h3>
+        <ul>
+          <li>Bruschetta</li>
+          <li>Caesar Salad</li>
+          <li>Spring Cocktail</li>
+          <li>Spring Rolls</li>
+        </ul>
+      </div>
+      <div class="appetizers">
+        <h3>Main courses</h3>
+        <ul>
+          <li>Steak with Mashed Potatoes</li>
+          <li>Pasta Carbonara</li>
+          <li>Grilled Salmon</li>
+          <li>Vegetable Stir Fry</li>
+        </ul>
+      </div>
+      <div class="appetizers">
+        <h3>Desserts</h3>
+        <ul>
+          <li>Tiramisu</li>
+          <li>Chocolate Fondue</li>
+          <li>Key Lime Pie</li>
+          <li>Fruit Tart</li>
+        </ul>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="https://png.pngtree.com/background/20230610/original/pngtree-in-the-style-of-anime-aesthetic-picture-image_3053864.jpg" alt="Image">
+    </div>
+
+    <div class="copyright">
+      &copy; 2023 Food Order Site
+    </div>
+  </div>
+</body>
+</html>
